@@ -1,13 +1,13 @@
-1. signup <name> <email> <password>: Creates a new user with the provided name, email, and password.
-2. login <email>: Logs in a user with the provided email.
-3. follow <user_id>: Follows the user with the provided user ID.
-4. post <description>: Creates a new post with the provided description.
-5. comment <post_id> <comment>: Adds a new comment to the post with the provided post ID.
-6. upvote <post_id>: Upvotes the post with the provided post ID.
-7. downvote <post_id>: Downvotes the post with the provided post ID.
-8. commentUpvote <comment_id>: Upvotes the comment with the provided comment ID.
-9. commentDownvote <comment_id>: Downvotes the comment with the provided comment ID.
-10. feed: Fetches the feed of the logged-in user.
+1. signup maruthi maruthi@gmail.com Maru@123  // second param is name, third param is gamil and last param is password
+2. login maruthi@gmail.com  // 
+3. follow 2 // here 2 is the id of the user you want to follow
+4. post This is sample post // here post is Command and rest is post description
+5. comment 1 This is sample comment // here 1 is the post on which you want to comment on and rest is cooment
+6. upvote 1 // 1 is id of the post for which you want to upvote
+7. downvote 1 // 1 is the id of the post for which you want to downvote
+8. commentUpvote 1 // here 1 is the id of the comment for which you want to upvote
+9. commentDownvote 2 // here 2 is the id of the comment for which you want to downvote
+10. feed // this will fetch the feed of the logged in user
 
 
 **important design**
